@@ -2,8 +2,8 @@
 
 import alchemy
 
-X = "\033[0m"
-D = "\033[2m"
+X = "\033[0m"  # Remove text formatting
+D = "\033[2m"  # Dim text formatting
 
 print(f"{D}\nTesting direct module access...{X}")
 print("alchemy.elements.create_fire:", alchemy.elements.create_fire())

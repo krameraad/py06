@@ -24,4 +24,4 @@ def wisdom_potion() -> str:
 
     return "Wisdom potion brewed with all elements:" \
            f" {create_fire()}, {create_water()}" \
-           f" {create_earth()}, {create_air()}"
+           f", {create_earth()}, {create_air()}"
